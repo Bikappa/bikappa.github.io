@@ -7,7 +7,6 @@ function App() {
         background: "url('industrial.svg') no-repeat",
         backgroundPosition: "left bottom",
         backgroundSize: "cover",
-        color: "white",
       }}
       className="flex flex-col items-center justify-center w-screen h-screen"
     >
