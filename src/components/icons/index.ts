@@ -1,0 +1,12 @@
+export { default as TypeScriptIcon } from './TypeScriptIcon.astro';
+export { default as NodeJsIcon } from './NodeJsIcon.astro';
+export { default as GoIcon } from './GoIcon.astro';
+export { default as ReactIcon } from './ReactIcon.astro';
+export { default as PostgreSQLIcon } from './PostgreSQLIcon.astro';
+export { default as GraphQLIcon } from './GraphQLIcon.astro';
+export { default as KubernetesIcon } from './KubernetesIcon.astro';
+export { default as DockerIcon } from './DockerIcon.astro';
+export { default as AWSIcon } from './AWSIcon.astro';
+export { default as GitHubActionsIcon } from './GitHubActionsIcon.astro';
+export { default as TerraformIcon } from './TerraformIcon.astro';
+export { default as RedisIcon } from './RedisIcon.astro';
