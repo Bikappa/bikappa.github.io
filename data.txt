@@ -1,0 +1,719 @@
+
+
+export const workExperienceSimplified = [
+  {
+    start: "March 2025",
+    end: "Now",
+    company: "Checkly",
+    title: "Senior Backend Engineer",
+    location: "Remote, Italy",
+    // logo: (
+    //   <svg
+    //     width="116"
+    //     height="32"
+    //     fill="none"
+    //     viewBox="0 0 200 55"
+    //     preserveAspectRatio="xMidYMid meet"
+    //   >
+    //     <g fill="#081026" clip-path="url(#a)">
+    //       <path d="M25.965 7.333 19.474 11l-6.491 3.666-6.492 3.667v22l6.492-3.666L19.473 33v-7.333l-6.49 3.666V22l6.49-3.667 6.492-3.666v22l-6.491 3.666L12.983 44 6.49 47.667 0 51.333 6.491 55l6.492-3.667 6.49-3.666L25.966 44l6.492-3.666V3.666L25.965 0v7.333Z"></path>
+    //     </g>
+    //   </svg>
+    // ),
+    description: (
+      <ul className="list-inside">
+        <li>
+          Cut of operational costs from $30,000 to $750 per month for HTTP syntetic checks, by migrating from Javascript to Golang, optimization of CI pipelines, reducing SDL iteration time from 15 minutes to 2
+          minutes.
+        </li>
+        <li>
+          Realization of a high-frequency testing flow for enterprise customers, leveraging SQL (Postgres) query performance
+          improvements and SQS batching.
+        </li>
+      </ul>
+    ),
+  },
+  {
+    start: "April 2023",
+    end: "March 2025",
+    company: "Hygraph GmbH",
+    title: "Senior Full-Stack Engineer (Backend-centric)",
+    location: "Remote, Italy",
+    // logo: (
+    //   <svg
+    //     width="116"
+    //     height="32"
+    //     fill="none"
+    //     viewBox="0 0 200 55"
+    //     preserveAspectRatio="xMidYMid meet"
+    //   >
+    //     <g fill="#081026" clip-path="url(#a)">
+    //       <path d="M25.965 7.333 19.474 11l-6.491 3.666-6.492 3.667v22l6.492-3.666L19.473 33v-7.333l-6.49 3.666V22l6.49-3.667 6.492-3.666v22l-6.491 3.666L12.983 44 6.49 47.667 0 51.333 6.491 55l6.492-3.667 6.49-3.666L25.966 44l6.492-3.666V3.666L25.965 0v7.333Z"></path>
+    //     </g>
+    //   </svg>
+    // ),
+    description: (
+      <>
+        <ul className="list-inside">
+          <li>
+            Led the initiave to improve the cache-hit ratio in the CDN layer of
+            the core content API by redesigning the caching model for higher
+            granularity.
+          </li>
+          <li>
+            Frontend work in the new Hygraph Studio App (Remix) for caching needs and team-owned
+            features requiring UI: automatic backup&amp;restore, remote schema refresh and
+            asset system migrations.
+          </li>
+          <li>
+            Github actions cost reduction by 60% through CI enhancements, streamlining
+            workflows, removing redundant tools, optimizing caching, and
+            lowering image sizes.
+          </li>
+          <li>
+            Doubled integration test speed with template database testing,
+            improving isolation, parallelization and bug detection.
+          </li>
+          <li>
+            Authored RFCs, conducted technical interviews, and followed onboarding to
+            support the team growth.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    start: "September 2020",
+    end: "April 2023",
+    company: "Contentful GmbH",
+    title: "Fullstack Engineer",
+    location: "Berlin, Germany",
+    description: (
+      <>
+        <ul className="list-inside">
+          <li>
+            Developed and optimized frontend applications and backend services,
+            including Compose and the Contentful Web App, reducing API requests
+            by 30% and minimizing rate-limit hits.
+          </li>
+          <li>
+            Held backend technical ownership in the content modeling space,
+            ensuring system availability and performance through proactive data
+            tracking, dashboards, and event alerting.
+          </li>
+          <li>
+            Managed CI/CD pipelines and updated SDK components, RESTful API
+            clients, and developer tooling to streamline development.
+          </li>
+          <li>
+            Provided technical support for customer issues, focusing on the
+            Contentful GraphQL API, and assisted with onboarding new hires.
+          </li>
+          <li>
+            Authored technical documentation for public-facing features,
+            enhancing user experience and adoption.
+          </li>
+          <li>
+            On-call engineering rotation, incident handling and redaction of post-mortems.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    start: "May 2018",
+    end: "August 2020",
+    company: "SAP Labs France",
+    title: "Software Engineer, Security Expert",
+    location: "Sophia Antipolis, France",
+    description: (
+      <>
+        <ul className="list-inside">
+          <li>
+            Developed a web application that automated security training
+            provisioning, doubling team capacity for concurrent training
+            sessions.
+          </li>
+          <li>
+            Worked on a Kubernetes-based platform to optimize dynamic security
+            scans, enabling the codebase to handle stress tests with over 1,000
+            simultaneous scans.
+          </li>
+          { /*
+
+          <li>
+            Set up and maintained a ticketing tool (RT), which was adopted by
+            additional teams, facilitating smoother migrations between cloud
+            environments.
+          </li>
+          */}
+
+
+
+        </ul>
+      </>
+    ),
+  },
+  // {
+  //   start: "September 2017",
+  //   end: "May 2018",
+  //   company: "Alten",
+  //   title: "Consulting Software Engineer",
+  //   location: "Sophia Antipolis, France",
+  //   description: (
+  //     <>
+  //       <ul className="list-inside">
+  //         {/* <li>
+  //           Designed and developed a Python-based REST API that interfaced with
+  //           a legacy C++ backend, in a microservices architecture for the
+  //           ditribution of railway tickets across multiple providers.
+  //         </li> */}
+  //       </ul>
+  //     </>
+  //   ),
+  // },
+];
+
+export const workExperienceDots = [
+  {
+    start: "April 2023",
+    end: "Now",
+    company: "Hygraph GmbH",
+    title: "Senior Fullstack Engineer",
+    location: "Remote, Italy",
+    description: (
+      <>
+        <ul className="list-inside">
+          <li>
+            Led a performance-driven project that significantly improved the
+            cache-hit ratio of the core content API by refining surrogate key
+            granularity in the distributed edge-caching layer.
+          </li>
+          <li>
+            Developed a enterprise-grade feature for synchronizing remote
+            GraphQL API schemas, supporting content federation across platforms.
+          </li>
+          <li>
+            Reduced operational costs by 60% through CI enhancements, including
+            streamlining GitHub workflows, removing redundant third-party tools,
+            optimizing GitHub Actions caching, and reducing Docker image sizes.
+          </li>
+          <li>
+            Increased integration test speed by 2x via the implementation of
+            template database testing, which improved test isolation and
+            parallelization while uncovering critical bugs.
+          </li>
+          <li>
+            Authored RFCs, conducted technical interviews and followed onboarding
+            of new hires.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    start: "September 2020",
+    end: "April 2023",
+    company: "Contentful GmbH",
+    title: "Software Engineer",
+    location: "Berlin, Germany",
+    description: (
+      <>
+        <ul className="list-inside">
+          <li>
+            Designed and implemented high-demand API enhancements, leading to
+            adoption by 50% of ARR customers within two months.
+          </li>
+          <li>
+            Held backend technical ownership in the content modeling space,
+            ensuring system availability and performance through proactive data
+            tracking, dashboards, and event alerting.
+          </li>
+          <li>
+            Managed CI/CD pipelines and implemented key updates for SDK
+            components, RESTful API clients, and developer tooling, ensuring a
+            streamlined development process.
+          </li>
+          <li>
+            Developed and optimized frontend applications, including the new
+            Compose and Contentful Web App, improving performance by reducing
+            API requests by 30% and minimizing rate-limit hits.
+          </li>
+          <li>
+            Provided technical support for customer issues, particularly around
+            the Contentful GraphQL API, and played a key role in onboarding new
+            hires.
+          </li>
+          <li>
+            Authored technical documentation for public-facing features,
+            enhancing user experience and adoption.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    start: "May 2018",
+    end: "August 2020",
+    company: "SAP Labs France",
+    title: "Software Engineer, Security Expert",
+    location: "Sophia Antipolis, France",
+    description: (
+      <>
+        <ul className="list-inside">
+          <li>
+            Developed a web application that automated security training
+            provisioning, doubling team capacity for concurrent training
+            sessions.
+          </li>
+          <li>
+            Worked on a Kubernetes-based platform to optimize dynamic security
+            scans, enabling the codebase to handle stress tests with over 1,000
+            simultaneous scans.
+          </li>
+          <li>
+            Set up and maintained a ticketing tool (RT), which was adopted by
+            additional teams, facilitating smoother migrations between cloud
+            environments.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    start: "September 2017",
+    end: "May 2018",
+    company: "Alten",
+    title: "Consulting Software Engineer",
+    location: "Sophia Antipolis, France",
+    description: (
+      <>
+        <ul className="list-inside">
+          <li>
+            Designed and developed a Python-based REST API that interfaced with
+            a legacy C++ backend, in a microservices architecture for the
+            ditribution of railway tickets across multiple providers.
+          </li>
+        </ul>
+      </>
+    ),
+  },
+];
+
+export const educationEntries = [
+  {
+    start: "2015",
+    end: "2017",
+    school: "University of Padua, Italy",
+    title: "MS Computer Science Engineering",
+    description: (
+      <>
+        Data structures and algorithms. Operative systems software and
+        architecture. Network applications, protocols and architectures. Image
+        processing,computer vision and 3D data manipulation
+      </>
+    ),
+    thesis: {
+      title:
+        "Design and development of a mobile digital learning platform to foster digital literacy through cultural activities",
+      supervisor: "Prof. Canazza Targon Sergio, Ing. Niccolò Pretto",
+    },
+    finalMark: "110/110",
+  },
+  {
+    start: "2011",
+    end: "2014",
+    school: "University of Padua, Italy",
+    title: "BE Computer Science Engineering",
+    description: <></>,
+    thesis: {
+      title:
+        "Design and development of a mobile application for simulating the quadraphonic listening of a sound document",
+      supervisor: "Prof. Canazza Targon Sergio, Ing. Niccolò Pretto",
+    },
+
+    // finalMark: "95/110",
+  },
+];
+
+// export const workExperience = [
+//   {
+//     start: "April 2023",
+//     end: "Now",
+//     company: "Hygraph",
+//     title: "Senior Fullstack Engineer",
+//     location: "Remote, Italy",
+//     description: (
+//       <>
+//         <p>
+//           Led a performance-focused project, improving the cache-hit ratio of
+//           the core content API of the headless-CMS, by increasing the
+//           granularity level of surrogate keys on the distributed edge-caching
+//           layer.
+//         </p>
+//         <p>
+//           Development of enterprise grade custumer-enabling feature for the
+//           synchronization of remote GraphQL API schemas in the context of
+//           content federation.
+//         </p>
+//         <p>
+//           Improved developer experience and cost savings by:
+//           <ul>
+//             <li>
+//               Reduced billable time by 60% with CI amendments simplifying GitHub
+//               workflows, removing of unnecessary third party tools, facilitating
+//               of GitHub actions caching and reduction of Docker image sizes.
+//             </li>
+//             <li>
+//               Doubled the integration tests speed with the introduction of
+//               template database testing which also enabled running test cases in
+//               full isolation while improving parallelization. The process also
+//               augmented the test quality, as several bugs emerged.
+//             </li>
+//           </ul>
+//         </p>
+//         <p>
+//           Authored RFC documents, conducted technical interviews, and onboarded
+//           new hires.
+//         </p>
+//         {/* <Box display="flex">
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<BiLogoGoLang />}
+//             label="Go"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrGraphQl />}
+//             label="GraphQL"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<SiFastly />}
+//             label="Fastly"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrDocker />}
+//             label="Docker"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<SiPostgresql color="primary" />}
+//             label="PostgresSQL"
+//             variant="outlined"
+//           />
+//         </Box> */}
+//       </>
+//     ),
+//   },
+//   {
+//     start: "September 2020",
+//     end: "April 2023",
+//     company: "Contentful Gmbh",
+//     title: "Software Engineer",
+//     location: "Berlin, Germany",
+//     description: (
+//       <>
+//         <p>
+//           Design, promotion and realization of API enhancement proposals for new
+//           high-demanded platform functionalities that have been adopted by 50%
+//           ARR costumers in 2 months.
+//           <p>
+//             Backend technical ownership on the core area of{" "}
+//             <a href="https://www.contentful.com/help/content-modelling-basics/">
+//               content modeling
+//             </a>
+//             , ensuring availability and performance through data tracking,
+//             reporting dashboards and event alerting and maintenance of continuos
+//             integration and deployment procedures.
+//           </p>
+//           <p></p>
+//           Responsibilities of technical decision making, backend and frontend
+//           implementations in a micro-services system, update and maintenance of
+//           SDK components, like the RESTFul API clients and developers tooling.
+//         </p>
+//         <p>
+//           Development of frontend applications and packages, like the new{" "}
+//           <a href="https://www.contentful.com/marketplace/contentful-app/compose/">
+//             Compose
+//           </a>{" "}
+//           and the{" "}
+//           <a href="https://www.contentful.com/help/contentful-web-app-overview/">
+//             Contentful Web App
+//           </a>
+//           .
+//         </p>
+//         <p>
+//           Along with these tasks:
+//           <ul>
+//             <li>
+//               Writing of public technical documentation for newly introduced
+//               features.
+//             </li>
+//             <li>
+//               Frontend optimization reducing the number of API requests
+//               performed by 30%, therefore dropping the number of rate-limit hits
+//               and increasing performance.
+//             </li>
+//             <li>
+//               Technical customers support on team-owned services, including
+//               contentful GraphQL API, and onboarding of new hires.
+//             </li>
+//           </ul>
+//         </p>
+//         {/* <Box display="flex">
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrNode />}
+//             label="NodeJs"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrReactjs />}
+//             label="React"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrDocker />}
+//             label="Docker"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrKubernetes />}
+//             label="Kubernetes"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<SiPostgresql color="primary" />}
+//             label="PostgresSQL"
+//             variant="outlined"
+//           />
+//         </Box> */}
+//       </>
+//     ),
+//   },
+//   {
+//     start: "May 2018",
+//     end: "August 2020",
+//     company: "SAP Labs France",
+//     title: "Software Engineer, Security Expert",
+//     location: "Sophia Antipolis, France",
+//     description: (
+//       <>
+//         <ul>
+//           <li>
+//             Developed a web application for automating security testing training
+//             provisioning, doubling team capacity for concurrent trainings.
+//           </li>
+//           <li>
+//             Worked on a Kubernetes-based platform for dynamic security scans,
+//             optimizing the codebase to handle stress tests with a thousand
+//             simultaneous scans.
+//           </li>
+//           <li>
+//             Set up and maintained a ticketing tool (RT from Bestpractical),
+//             adopted by two additional teams, facilitating seamless migration
+//             between cloud environments.
+//           </li>
+//         </ul>
+
+//         {/* <Box display="flex">
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrPython />}
+//             label="Python"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrNode />}
+//             label="NodeJs"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrDocker />}
+//             label="Docker"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrKubernetes />}
+//             label="Kubernetes"
+//             variant="outlined"
+//           />
+//         </Box> */}
+//       </>
+//     ),
+//   },
+//   {
+//     start: "September 2017",
+//     end: "May 2018",
+//     company: "Alten",
+//     title: "Consulting Software Engineer",
+//     location: "Sophia Antipolis, France",
+//     description: (
+//       <>
+//         <p>
+//           Design and development of a new REST API, written in python, and
+//           interface adapters than enabled its communication with the legacy
+//           back-end application, written in C++. They worked in a distributed
+//           system, designed with a micro-services architecture, that communicated
+//           with external providers to complete the booking, order and
+//           distribution of railway tickets.
+//         </p>
+
+//         {/* <Box display="flex">
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<GrPython />}
+//             label="Python"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<CgCPlusPlus />}
+//             label="C++"
+//             variant="outlined"
+//           />
+//           <Chip
+//             color="secondary"
+//             size="small"
+//             sx={{
+//               marginLeft: "4pt",
+//               paddingLeft: "0.5em",
+//               paddingTop: "1.2em",
+//               paddingBottom: "1.2em",
+//             }}
+//             icon={<SiMongodb />}
+//             label="MongoDB"
+//             variant="outlined"
+//           />
+//         </Box> */}
+//       </>
+//     ),
+//   },
+// ];
+
+export const workExperience = workExperienceSimplified;
