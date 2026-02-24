@@ -16,10 +16,7 @@ import LanguageToggle from "../../components/LanguageToggle.astro";
 import { useTranslations, type Lang } from "../../i18n";
 
 export function getStaticPaths() {
-  return [
-    { params: { lang: 'en' } },
-    { params: { lang: 'it' } },
-  ];
+  return [{ params: { lang: "en" } }, { params: { lang: "it" } }];
 }
 
 const { lang } = Astro.params as { lang: Lang };
@@ -28,7 +25,7 @@ const t = useTranslations(lang);
 const workExperience = [
   {
     start: "March 2025",
-    end: lang === 'it' ? "Oggi" : "Now",
+    end: lang === "it" ? "Oggi" : "Now",
     company: "Checkly",
     title: t.work.checkly.title,
     location: t.work.checkly.location,
@@ -126,7 +123,7 @@ const basePath = `/${lang}`;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={t.meta.description} />
     <title>{t.meta.title}</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="alternate" hreflang="en" href="/en/" />
     <link rel="alternate" hreflang="it" href="/it/" />
     <link rel="alternate" hreflang="x-default" href="/en/" />
@@ -141,10 +138,16 @@ const basePath = `/${lang}`;
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 gap-2">
-          <li><a href="#services" class="hover:text-primary">{t.nav.services}</a></li>
+          <li>
+            <a href="#services" class="hover:text-primary">{t.nav.services}</a>
+          </li>
           <li><a href="#about" class="hover:text-primary">{t.nav.about}</a></li>
-          <li><a href="#skills" class="hover:text-primary">{t.nav.skills}</a></li>
-          <li><a href="#contact" class="hover:text-primary">{t.nav.contact}</a></li>
+          <li>
+            <a href="#skills" class="hover:text-primary">{t.nav.skills}</a>
+          </li>
+          <li>
+            <a href="#contact" class="hover:text-primary">{t.nav.contact}</a>
+          </li>
         </ul>
       </div>
       <div class="navbar-end gap-2">
@@ -181,7 +184,8 @@ const basePath = `/${lang}`;
             <p class="text-primary font-mono mb-4">{t.hero.greeting}</p>
             <h1 class="text-5xl md:text-7xl font-bold mb-4">{t.hero.name}</h1>
             <p class="text-2xl md:text-3xl text-base-content/70 mb-6">
-              {t.hero.aka} <span class="text-primary font-semibold">Bikappa</span>
+              {t.hero.aka}
+              <span class="text-primary font-semibold">Bikappa</span>
             </p>
             <p
               class="text-xl md:text-2xl text-base-content/80 mb-8 max-w-2xl mx-auto"
@@ -192,7 +196,9 @@ const basePath = `/${lang}`;
               <a href="#services" class="btn btn-primary btn-lg"
                 >{t.hero.viewServices}</a
               >
-              <a href="#contact" class="btn btn-outline btn-lg">{t.hero.letsTalk}</a>
+              <a href="#contact" class="btn btn-outline btn-lg"
+                >{t.hero.letsTalk}</a
+              >
             </div>
           </div>
         </div>
@@ -227,13 +233,23 @@ const basePath = `/${lang}`;
       <section id="about" class="py-24 bg-base-100">
         <div class="container mx-auto px-6">
           <div class="max-w-4xl mx-auto">
-            <h2 class="text-4xl font-bold mb-12 text-center">{t.about.title}</h2>
+            <h2 class="text-4xl font-bold mb-12 text-center">
+              {t.about.title}
+            </h2>
 
             <!-- Personal intro -->
             <div class="prose prose-lg max-w-none mb-16 text-base-content/80">
               <p class="text-xl leading-relaxed">
-                {t.about.intro.part1} <span class="text-primary font-semibold">{t.about.intro.faster}</span>,
-                <span class="text-primary font-semibold">{t.about.intro.cheaper}</span>, {lang === 'it' ? 'e' : 'and'} <span class="text-primary font-semibold">{t.about.intro.reliable}</span>{t.about.intro.part2}
+                {t.about.intro.part1}
+                <span class="text-primary font-semibold"
+                  >{t.about.intro.faster}</span
+                >,
+                <span class="text-primary font-semibold"
+                  >{t.about.intro.cheaper}</span
+                >, {lang === "it" ? "e" : "and"}
+                <span class="text-primary font-semibold"
+                  >{t.about.intro.reliable}</span
+                >{t.about.intro.part2}
               </p>
               <p class="text-lg leading-relaxed mt-4">
                 {t.about.hobbies}
@@ -392,7 +408,8 @@ const basePath = `/${lang}`;
               const expandIcon = document.getElementById("expand-icon");
               let expanded = false;
 
-              const showMoreText = expandBtn?.dataset.showMore || "Show Full Experience";
+              const showMoreText =
+                expandBtn?.dataset.showMore || "Show Full Experience";
               const showLessText = expandBtn?.dataset.showLess || "Show Less";
 
               expandBtn?.addEventListener("click", () => {
