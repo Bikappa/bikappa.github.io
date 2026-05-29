@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @plugin "daisyui" {
-  themes: dim;
+  themes: fantasy --default;
 }
 
 html {
@@ -9,5 +9,5 @@ html {
 }
 
 body {
-  @apply bg-base-100 text-base-content;
+  @apply text-base-content bg-base-100;
 }
